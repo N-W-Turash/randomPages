@@ -233,6 +233,22 @@ a.pink{
     margin-right: 20px
 }
 
+@media(max-width: 767px){
+	.foot-note{
+		margin-left: 5px;
+        margin-right: 2px;
+	}
+
+	.right-partition, .partition-02, .partition-03{
+		padding-right: 20px;
+    	padding-left: 20px;
+	}
+
+	.right-contents-02{
+		margin-top: 0;
+	}
+}
+
 @media(min-width: 768px){
 	.left{
 		top:0;
